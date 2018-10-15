@@ -2,11 +2,11 @@ package com.luthfihariz.indigo.di
 
 import com.luthfihariz.indigo.common.rx.BaseSchedulerProvider
 import com.luthfihariz.indigo.common.rx.SchedulerProvider
-import org.koin.dsl.module.applicationContext
+import org.koin.dsl.module.module
 
-val appModule = applicationContext {
+val appModule = module {
 
-    bean { SchedulerProvider() as BaseSchedulerProvider } // rx testing purpose
+    single { SchedulerProvider() as BaseSchedulerProvider } // rx testing purpose
 
 
 }

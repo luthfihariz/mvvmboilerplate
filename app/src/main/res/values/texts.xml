@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Header1" parent="android:Widget.TextView">
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="Header2" parent="android:Widget.TextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="Header2.Medium" parent="Header2">
+        <item name="android:fontFamily">@font/rubik_medium</item>
+    </style>
+
+    <style name="TextParagraph1" parent="android:Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="TextParagraph1.Medium" parent="TextParagraph1">
+        <item name="android:fontFamily">@font/rubik_medium</item>
+    </style>
+
+    <style name="TextParagraph2" parent="android:Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="TextParagraph2.Medium" parent="TextParagraph2">
+        <item name="android:fontFamily">@font/rubik_medium</item>
+    </style>
+
+    <style name="TextParagraph3" parent="android:Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="TextParagraph3.Medium" parent="TextParagraph3">
+        <item name="android:fontFamily">@font/rubik_medium</item>
+    </style>
+
+    <style name="TextParagraph4" parent="android:Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="TextParagraph4.Medium" parent="TextParagraph4">
+        <item name="android:fontFamily">@font/rubik_medium</item>
+    </style>
+
+    <style name="TextParagraph5" parent="android:Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="TextParagraph5.Medium" parent="TextParagraph5">
+        <item name="android:fontFamily">@font/rubik_medium</item>
+    </style>
+
+    <style name="TextParagraph6" parent="android:Widget.TextView">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="TextParagraph6.Medium" parent="TextParagraph6">
+        <item name="android:fontFamily">@font/rubik_medium</item>
+    </style>
+
+    <style name="TextParagraph3.Medium.White" parent="TextParagraph3.Medium">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

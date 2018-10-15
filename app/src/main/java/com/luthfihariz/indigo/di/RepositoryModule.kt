@@ -1,8 +1,8 @@
 package com.luthfihariz.indigo.di
 
-import org.koin.dsl.module.applicationContext
+import org.koin.dsl.module.module
 
-val repositoryModule = applicationContext {
+val repositoryModule = module {
 
 
 }
