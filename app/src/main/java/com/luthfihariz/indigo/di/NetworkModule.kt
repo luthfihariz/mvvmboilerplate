@@ -14,13 +14,13 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 val networkModule = module {
-    bean("logging") {
+    single("logging") {
         HttpLoggingInterceptor(HttpLoggingInterceptor.Logger { message ->
             Log.d("ApiLog", message)
         }).setLevel(HttpLoggingInterceptor.Level.BODY) as Interceptor
     }
 
-    bean {
+    single {
         OkHttpClient.Builder()
                 .addInterceptor(get("logging"))
                 .readTimeout(120, TimeUnit.SECONDS)
@@ -28,7 +28,7 @@ val networkModule = module {
                 .build()
     }
 
-    bean {
+    single {
         val gson = GsonBuilder().setLenient().create()
 
 
