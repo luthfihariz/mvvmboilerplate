@@ -1,7 +1,7 @@
 package com.luthfihariz.indigo.di
 
 import android.util.Log
-import com.example.luthfihariz.footballclub.data.remote.ApiService
+import com.luthfihariz.indigo.data.remote.ApiService
 import com.google.gson.GsonBuilder
 import com.luthfihariz.indigo.BuildConfig
 import okhttp3.Interceptor

@@ -1,4 +1,4 @@
-package com.example.luthfihariz.footballclub.data.remote
+package com.luthfihariz.indigo.data.remote
 
 interface ApiService {
 
